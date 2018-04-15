@@ -1,9 +1,9 @@
 
-h3 {
-	font-family: Comic Sans MS
-	align: center;
+h2 {
+	font-family: Comic Sans MS;
+	background-color: #00ccff;
 	}
-h3:hover {
+h2:hover {
 	background-color: white
 }
 h4:hover {
@@ -21,15 +21,15 @@ transform: scale(1.5);
 li{
 	color: green;
 }
-h5{
-	color:green;
+h4{
+	color: #ff6699;
 	font-family: Arial;
 }
 #bottomplace {
 	position: fixed;
 	bottom: 0px;
 	right: 0px;
-	color:red;
+	color: #ffccff;
 	background-color: black;
 }
 a{
