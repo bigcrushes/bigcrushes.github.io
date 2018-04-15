@@ -1,0 +1,41 @@
+
+h3 {
+	font-family: Comic Sans MS
+	align: center;
+	}
+h3:hover {
+	background-color: white
+}
+h4:hover {
+	background-color: white
+}
+h5:hover {
+	background-color: white
+}
+h6:hover {
+	background-color: white
+}
+img:hover{
+transform: scale(1.5);
+}
+li{
+	color: green;
+}
+h5{
+	color:green;
+	font-family: Arial;
+}
+#bottomplace {
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	color:red;
+	background-color: black;
+}
+a{
+	font-color: maroon;
+	background-color: pink;
+}
+body{
+	padding:100px green;
+}
