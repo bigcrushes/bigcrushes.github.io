@@ -13,16 +13,16 @@ $(document).ready(function () {
 	$.get("https://wd.comsci.club/api/kv.php?key=myprivatecommentsection", function(data) {
 			$("#comments-box").html(data);
 		});
-	
+
 	$("#submitcomment").click(function() {
 		var currentcomments = $("#comments-box").html();
 		var newcomments = currentcomments + "<br>" + "<b>" + $("#commentName").val() + "</b>: " + $("#comment").val();
 		$.post("https://wd.comsci.club/api/kv.php?key=myprivatecommentsection", {
 			value: newcomments
 		});
-		$.get("https://wd.comsci.club/api/kv.php?key=myprivatecommentsection", function(data) {
-			$("#comments-box").html(data);
-		});
+
+		$("#comments-box").html(newcomments);
+
 		$("#commentName").val("");
 		$("#comment").val("");
 	});
